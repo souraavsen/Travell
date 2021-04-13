@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gif"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/abouticon"
+        android:onClick="about" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Who lives sees. Who travels sees more."
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:textFontWeight="900"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp" />
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#6D333131"
+                android:onClick="dhaka"
+                android:textStyle="bold"
+                android:text="#Dhaka"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width= "wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#6D333131"
+                android:onClick="Barishal"
+                android:textStyle="bold"
+                android:text="#Barishal"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#6D333131"
+                android:onClick="khulna"
+                android:textFontWeight="900"
+                android:text="#Khulna"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#6D333131"
+                android:onClick="chittagonh"
+                android:textFontWeight="900"
+                android:text="#Chittagong"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#6D333131"
+                android:onClick="slyhet"
+                android:textFontWeight="900"
+                android:text="#Slyhet"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/frlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#255A3D05">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gif"/>
+
+    </FrameLayout>
+
+</LinearLayout>
+
